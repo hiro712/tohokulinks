@@ -181,7 +181,7 @@ $stmt_->execute($params_);
 
                 <div class="infomation">
 		    <p>ニュース/お知らせなど</p>
-                    <iframe src="info.html" width="300" height="620"></iframe>
+                    <iframe src="info.html" width="300" height="600"></iframe>
                 </div>
 
 
