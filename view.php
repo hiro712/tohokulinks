@@ -180,7 +180,7 @@ $stmt_->execute($params_);
                 </p>
 
                 <div class="infomation">
-                    <iframe src="info.html" width="250" height="650"></iframe>
+                    <iframe src="info.html" width="300" height="650"></iframe>
                 </div>
 
 
