@@ -180,6 +180,7 @@ $stmt_->execute($params_);
                 </p>
 
                 <div class="infomation">
+		    <p>ニュース/お知らせなど</p>
                     <iframe src="info.html" width="300" height="650"></iframe>
                 </div>
 
