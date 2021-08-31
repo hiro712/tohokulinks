@@ -49,7 +49,7 @@ HERO
 .twitter {
     position:relative;
     bottom:1080px;
-    left:800px;
+    left:1000px;
     height: 650px;
     width: 250px;
     background: #F5F5F5;
@@ -58,7 +58,7 @@ HERO
 }
 .infomation {
     position: relative;
-    bottom: 430px;
+    bottom: 433px;
     left: 35px;
     height: 650px;
     width: 300px;
