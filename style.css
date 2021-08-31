@@ -38,21 +38,6 @@ section {
     background-position: center center;
 }
 
-.twitter {
-    position:relative;
-    bottom:1080px;
-    left:520px;
-}
-
-.infomation {
-    position: relative;
-    bottom: 435px;
-    left: 60px;
-    height: 650px;
-    width: 300px;
-    background: #555;
-}
-
 /*
 HERO
 ================================================ */
@@ -60,6 +45,21 @@ HERO
     background-image: url(Agr_1.jpg);
     text-align: center;
     padding-top: 10vh;
+}
+.twitter {
+    position:relative;
+    bottom:1080px;
+    left:520px;
+}
+.infomation {
+    position: relative;
+    bottom: 435px;
+    left: 60px;
+    height: 650px;
+    width: 300px;
+    background: white;
+    border: 5px solid #555;
+    border-radius: 2px;
 }
 
 /*
@@ -372,6 +372,10 @@ button[type="submit"]:hover, .back:hover{
 
 @media screen and (max-width:1300px) {
     .twitter {
+        display: none;
+    }
+
+    .infomation {
         display: none;
     }
 }
