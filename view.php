@@ -186,7 +186,7 @@ $stmt_->execute($params_);
 
 
                 <div class="twitter">
-                    <a class="twitter-timeline" data-width="250" data-height="650" data-theme="light" data-chrome="noheader nofooter" data-link-color="#777" href="https://twitter.com/tohoku_univ?ref_src=twsrc%5Etfw">Tweets by tohoku_univ</a>
+                    <a class="twitter-timeline" data-width="250" data-height="640" data-theme="light" data-chrome="noheader nofooter" data-link-color="#777" href="https://twitter.com/tohoku_univ?ref_src=twsrc%5Etfw">Tweets by tohoku_univ</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
 
