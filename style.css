@@ -1,0 +1,368 @@
+@charset "UTF-8";
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 100%;
+}
+body {
+	color: #555;
+	font-family: sans-serif;
+}
+
+/*
+COMMON
+================================================ */
+.title {
+    font-family: 'Signika', sans-serif;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+p {
+    line-height: 1.7;
+    font-size: 1.125rem;
+}
+
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.twitter {
+    position:relative;
+    bottom:200px;
+    left:150px;
+}
+
+/*
+HERO
+================================================ */
+.hero {
+    background-image: url(Agr_1.jpg);
+    text-align: center;
+    padding-top: 10vh;
+}
+
+/*
+TOHOKU
+================================================ */
+.tohoku {
+    background-image: url(UHBuilding.jpg);
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.link-list tr {
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    line-height: 1.7;
+}
+.btn1 {
+    background: #555;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 18rem;
+    height:4rem;
+    line-height: 4rem;
+    text-align: center;
+    /*padding: 1rem 3.5rem;*/
+    border-radius: 6px;
+    display: inline-block;
+    margin: 1rem 0 2.25rem;
+}
+.btn1:hover {
+    background: #777;
+}
+
+
+/*
+CLASSROOM
+================================================ */
+.classroom {
+    background-image: url(Kaw_1.jpg);
+    text-align: center;
+    padding-top: 6vh;
+}
+.btn2 {
+    background: #555;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 9rem;
+    height:4rem;
+    line-height: 4rem;
+    text-align: center;
+    display: inline-block;
+    
+}
+.btn2:hover {
+    background: #777;
+}
+
+
+/*
+RESISTRATION
+================================================ */
+
+.input {
+    background-image: url(Agr_1.jpg);
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+    background: #555;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 500px;
+    
+    line-height: 3rem;
+    text-align: center;
+}
+
+.table1 th{
+    text-align: center;
+}
+
+button[type="submit"], .back{
+    border: 0;
+    width: 200px;
+    background: #555;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #555;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.menu{
+    background: #555;
+    line-height: 2rem;
+    color: white;
+    font-size: 0.75rem;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Loginボタンをマウスオーバーしたときのスタイル */
+button[type="submit"]:hover, .back:hover{
+    background:white;
+    color:#555;
+    border: 2px solid #555;
+}
+
+/*
+MOBILE SIZE
+================================================ */
+
+@media screen and (max-width:480px) {
+ 
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 60%;
+}
+body {
+	color: #555;
+	font-family: sans-serif;
+}
+
+/*
+COMMON
+================================================ */
+.title {
+    font-family: 'Signika', sans-serif;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+p {
+    line-height: 1.7;
+    font-size: 1.125rem;
+}
+
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.twitter {
+    display: none;
+}
+
+/*
+HERO
+================================================ */
+.hero {
+    background-image: url(Agr_1.jpg);
+    text-align: center;
+    padding-top: 10vh;
+}
+
+/*
+TOHOKU
+================================================ */
+.tohoku {
+    background-image: url(UHBuilding.jpg);
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.link-list tr {
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    line-height: 1.7;
+}
+.btn1 {
+    background: #555;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 18rem;
+    height:4rem;
+    line-height: 4rem;
+    text-align: center;
+    /*padding: 1rem 3.5rem;*/
+    border-radius: 6px;
+    display: inline-block;
+    margin: 1rem 0 2.25rem;
+}
+.btn1:hover {
+    background: #777;
+}
+
+
+/*
+CLASSROOM
+================================================ */
+.classroom {
+    background-image: url(Kaw_1.jpg);
+    text-align: center;
+    padding-top: 6vh;
+}
+.btn2 {
+    background: #555;
+    font-size: 1.0rem;
+    color: #fff;
+    width: 6rem;
+    height:3rem;
+    line-height: 4rem;
+    text-align: center;
+    display: inline-block;
+    
+}
+.btn2:hover {
+    background: #777;
+}
+
+
+/*
+RESISTRATION
+================================================ */
+
+.input {
+    background-image: url(Agr_1.jpg);
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+    background: #555;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 300px;
+    
+    line-height: 3rem;
+    text-align: center;
+}
+
+.table1 th{
+    text-align: center;
+}
+
+button[type="submit"], .back{
+    border: 0;
+    width: 120px;
+    background: #555;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #555;
+    padding: 7px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.menu{
+    background: #555;
+    line-height: 3rem;
+    color: white;
+    font-size: 0.50rem;
+}
+
+.footer{
+    position:absolute;
+    bottom: 0;
+}
+
+/* Loginボタンをマウスオーバーしたときのスタイル */
+button[type="submit"]:hover, .back:hover{
+    background:white;
+    color:#555;
+    border: 2px solid #555;
+}
+
+
+}
+
+@media screen and (max-width:1300px) {
+    .twitter {
+        display: none;
+    }
+}
