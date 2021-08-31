@@ -50,6 +50,11 @@ HERO
     position:relative;
     bottom:1080px;
     left:520px;
+    height: 650px;
+    width: 250px;
+    background: #F5F5F5;
+    border: 5px solid #555;
+    border-radius: 5px;
 }
 .infomation {
     position: relative;
