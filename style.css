@@ -40,8 +40,16 @@ section {
 
 .twitter {
     position:relative;
-    bottom:200px;
-    left:150px;
+    bottom:600px;
+    left:450px;
+}
+
+.infomation {
+    position: relative;
+    bottom: 200px;
+    right: 150px;
+    height: 650px;
+    width: 250px;
 }
 
 /*
