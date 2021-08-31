@@ -46,7 +46,8 @@ section {
 
 .infomation {
     position: relative;
-    bottom: 450px;
+    bottom: 430px;
+    left: 100px;
     height: 650px;
     width: 250px;
     background: #555;
