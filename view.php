@@ -180,14 +180,15 @@ $stmt_->execute($params_);
                 </p>
 
                 <div class="infomation">
-		    <p>ニュース/お知らせなど</p>
-                    <iframe src="info.html" width="300" height="600"></iframe>
+                    <p>ニュース/お知らせなど</p>
+                    <iframe src="info.html" width="295" height="450"></iframe>
+                    <a class="twitter-timeline" data-width="300" data-height="200" data-theme="light" data-chrome="noheader nofooter" data-link-color="#777" href="https://twitter.com/tohoku_univ?ref_src=twsrc%5Etfw">Tweets by tohoku_univ</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
 
 
                 <div class="twitter">
-                    <a class="twitter-timeline" data-width="250" data-height="640" data-theme="light" data-chrome="noheader nofooter" data-link-color="#777" href="https://twitter.com/tohoku_univ?ref_src=twsrc%5Etfw">Tweets by tohoku_univ</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    
                 </div>
 
     		</section>
