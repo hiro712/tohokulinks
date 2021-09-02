@@ -55,6 +55,7 @@ HERO
     background: #F5F5F5;
     border: 3px solid #555;
     border-radius: 5px;
+    display: none;  /*今は消している*/
 }
 .infomation {
     position: relative;
