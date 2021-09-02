@@ -182,7 +182,7 @@ $stmt_->execute($params_);
                 <div class="infomation">
                     <p>ニュース/お知らせなど</p>
                     <iframe src="info.html" width="295" height="270"></iframe>
-                    <a class="twitter-timeline" data-width="300" data-height="345" data-theme="light" data-chrome="noheader nofooter" data-link-color="#777" href="https://twitter.com/tohoku_univ?ref_src=twsrc%5Etfw">Tweets by tohoku_univ</a>
+                    <a class="twitter-timeline" data-width="300" data-height="343" data-theme="light" data-chrome="noheader nofooter" data-link-color="#777" href="https://twitter.com/tohoku_univ?ref_src=twsrc%5Etfw">Tweets by tohoku_univ</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
 
