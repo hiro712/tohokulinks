@@ -23,6 +23,7 @@ COMMON
 p {
     line-height: 1.7;
     font-size: 1.125rem;
+    text-align: center;
 }
 
 .container {
@@ -59,7 +60,7 @@ HERO
 }
 .infomation {
     position: relative;
-    bottom: 425px;
+    bottom: 435px;
     left: 3%;
     height: 650px;
     width: 300px;
