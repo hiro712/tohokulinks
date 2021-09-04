@@ -176,8 +176,9 @@ $stmt_->execute($params_);
                     <br>こんにちは、<?php echo htmlspecialchars($name); ?> さん。<br><br>
                     下にスクロールしてご利用ください。<br>
                     <a href="changepw.html">→パスワード変更はこちら</a><br>
-                    <a href="manual.pdf">→使い方はこちら</a><br>
-	　　　　　　　　　　　　　　　　　　　　　　　　<a href="https://forms.gle/KUUAUuDbdFBCkus49">→お問い合わせはこちら</a><br>
+                    <a href="https://forms.gle/KUUAUuDbdFBCkus49">→お問い合わせはこちら</a><br>
+		　　　　　　　　<a href="manual.pdf">→使い方はこちら</a><br>
+	　　　　　　　　　　　　　　　　　　　　　　　　
                 </p>
 
                 <div class="infomation">
