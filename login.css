@@ -11,6 +11,18 @@ body {
 	font-family: sans-serif;
 }
 
+.infomation {
+    position: relative;
+    bottom: 495px;
+    left: 3%;
+    height: 95%;
+    width: 300px;
+    background: #F5F5F5;
+    border: 3px solid #555;
+    border-radius: 5px;
+}
+
+
 /*
 COMMON
 ================================================ */
