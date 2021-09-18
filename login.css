@@ -279,3 +279,12 @@ border: 2px solid #555;
 
 
 }
+@media screen and (max-width:1360px) {
+    .twitter {
+        display: none;
+    }
+
+    .infomation {
+        display: none;
+    }
+}
