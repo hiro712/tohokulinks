@@ -343,7 +343,7 @@ $stmt_->execute($params_);
         <footer>
             <div class="menu">
                 <ul>
-                    <li>    ©️ 2021 Hiroto ABE, Tohoku University Inc. All Rights Reserved.   Ver.1.1.2 </li>
+                    <li>    &copy; 2021 Hiroto ABE, Tohoku University Inc. All Rights Reserved.   Ver.1.1.2 </li>
                 </ul>
             </div>
         </footer>
