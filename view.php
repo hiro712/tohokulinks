@@ -175,9 +175,9 @@ $stmt_->execute($params_);
 
                     こんにちは、<?php echo htmlspecialchars($name); ?> さん。<br><br>
                     下にスクロールしてご利用ください。<br>
-                    <a class="back" href="account.html">→アカウント管理はこちら</a><br>
-                    <a class="back" href="https://forms.gle/KUUAUuDbdFBCkus49">→お問い合わせはこちら</a><br>
-		　　　　　　　　<a class="back" href="manual.pdf">→使い方はこちら</a><br>
+                    <a class="back" href="account.html">アカウント管理</a>
+                    <a class="back" href="https://forms.gle/KUUAUuDbdFBCkus49">お問い合わせ</a>
+		　　　　　　　　<a class="back" href="manual.pdf">使い方</a><br>
 	　　　　　　　　　　　　　　　　　　　　　　　　
                 </p>
 
