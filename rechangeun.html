@@ -19,16 +19,15 @@
     		<section class="hero">
     			<h1 class="title">TOHOKU LINKS</h1>
     			<p>
-                    Googe Classroom、大学HP、ポータルサイトなどにアクセスできます。<br>
-                    ここはパスワード変更画面です。<br>
+                    新しいユーザー名が一致していません。<br>
           </p>
 
-          <form class="box" action="changepw.php" method="post" target="_self">
+          <form class="box" action="changeun.php" method="post" target="_self">
             <h1>Change password</h1>
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password0" placeholder="Old-Password" required>
-            <input type="password" name="password1" placeholder="New-Password" required>
-            <input type="password" name="password2" placeholder="Re-Password" required>
+            <input type="text" name="username0" placeholder="Old-Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="username1" placeholder="New-Username" required>
+            <input type="text" name="username2" placeholder="Re-Username" required>
             <input type="submit" value="Submit">
          </form>
 
