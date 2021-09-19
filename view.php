@@ -175,11 +175,11 @@ $stmt_->execute($params_);
 
                     こんにちは、<?php echo htmlspecialchars($name); ?> さん。<br><br>
                     下にスクロールしてご利用ください。<br>
+		</p>
                     <a class="back" href="account.html">アカウント管理</a>
                     <a class="back" href="https://forms.gle/KUUAUuDbdFBCkus49">お問い合わせ</a>
 		　　　　　　　　<a class="back" href="manual.pdf">使い方</a><br>
 	　　　　　　　　　　　　　　　　　　　　　　　　
-                </p>
 
                 <div class="infomation">
 		    <a class="twitter-timeline" data-width="300" data-height="50%" data-theme="light" data-chrome="noheader nofooter transparent" data-link-color="#777" href="https://twitter.com/tohoku_univ?ref_src=twsrc%5Etfw">Tweets by tohoku_univ</a>
