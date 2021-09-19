@@ -106,7 +106,7 @@ $params = array(':name' => "$newName");
 $stmt->execute($params);
 
 $sql_ = "UPDATE link SET user = :user WHERE id = $realUserID";
-$stmt_ = $db->prepare($sql);
+$stmt_ = $db->prepare($sql_);
 $params_ = array(':user' => "$newName");
 $stmt_->execute($params_);
 
