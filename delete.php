@@ -95,7 +95,7 @@ $stmt = $db->prepare($sql);
 $stmt->execute();
 
 $sql_ = "DELETE FROM link WHERE id = $realUserID";
-$stmt_ = $db->prepare($sql);
+$stmt_ = $db->prepare($sql_);
 $stmt_->execute();
 
 
