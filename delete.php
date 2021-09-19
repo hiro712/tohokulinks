@@ -80,7 +80,7 @@ $nameArray = array_column($nameAndPass, 'name');
 $userID = array_search("$name", $nameArray);
 
 if($userID === false){
-    header( "Location: login.html" );
+    header( "Location: relogin.html" );
     exit; 
 }
 
