@@ -164,7 +164,7 @@ $stmt_->execute($params_);
                 <p></p>
     			<h1 class="title">TOHOKU LINKS</h1>
     			<p>
-                    Googe Classroom、大学HP、ポータルサイトなどにアクセスできます。<br><br><br>
+                    Googe Classroom、大学HP、ポータルサイトなどにアクセスできます。<br><br>
 
                     <?php if( $judge === false ){
                         echo("エラー:");
@@ -173,7 +173,7 @@ $stmt_->execute($params_);
                         echo("\n");
                     }?>
 
-                    <br>こんにちは、<?php echo htmlspecialchars($name); ?> さん。<br><br>
+                    こんにちは、<?php echo htmlspecialchars($name); ?> さん。<br><br>
                     下にスクロールしてご利用ください。<br>
                     <a href="account.html">→アカウント管理はこちら</a><br>
                     <a href="https://forms.gle/KUUAUuDbdFBCkus49">→お問い合わせはこちら</a><br>
