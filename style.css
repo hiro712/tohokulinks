@@ -122,6 +122,7 @@ CLASSROOM
     line-height: 4rem;
     text-align: center;
     display: inline-block;
+    white-space: nowrap;
     
 }
 .btn2:hover {
