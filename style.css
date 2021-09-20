@@ -115,10 +115,10 @@ CLASSROOM
 }
 .btn2 {
     background: #555;
-    font-size: 1.5rem;
+    font-size: 110%;
     color: #fff;
-    width: 9rem;
-    height:4rem;
+    width: 16%;
+    height: 10%;
     line-height: 4rem;
     text-align: center;
     display: inline-block;
