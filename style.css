@@ -99,6 +99,7 @@ TOHOKU
     border-radius: 6px;
     display: inline-block;
     margin: 1rem 0 2.25rem;
+    white-space: nowrap;
 }
 .btn1:hover {
     background: #777;
