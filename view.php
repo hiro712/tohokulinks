@@ -201,15 +201,15 @@ $stmt_->execute($params_);
                     <table class="link-list">
                         <tr>
                             <a class="btn1" href="https://www.tohoku.ac.jp/japanese/" target="_blank">大学HP</a>
-                            <a class="btn1" href="<?php print_r($arrayLine["url_26"]); ?>"><?php print_r($arrayLine["class_26"]); ?></a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_26"]); ?>" target="_blank"><?php print_r($arrayLine["class_26"]); ?></a>
                         </tr>
                         <tr>
-                            <a class="btn1" href="<?php print_r($arrayLine["url_27"]); ?>"><?php print_r($arrayLine["class_27"]); ?></a>
-                            <a class="btn1" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html">全学教育</a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_27"]); ?>" target="_blank"><?php print_r($arrayLine["class_27"]); ?></a>
+                            <a class="btn1" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html" target="_blank">全学教育</a>
                         </tr>
                         <tr>
-                            <a class="btn1" href="https://www.srp.tohoku.ac.jp/">ポータルサイト</a>
-                            <a class="btn1" href="https://istu3g.dc.tohoku.ac.jp/istu3g/auth/login">ISTU</a>
+                            <a class="btn1" href="https://www.srp.tohoku.ac.jp/" target="_blank">ポータルサイト</a>
+                            <a class="btn1" href="https://istu3g.dc.tohoku.ac.jp/istu3g/auth/login" target="_blank">ISTU</a>
                         </tr>
                        
                     </table>
