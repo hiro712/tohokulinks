@@ -200,7 +200,7 @@ $stmt_->execute($params_);
         			<h2 class="title">LINKS</h2>
                     <table class="link-list">
                         <tr>
-                            <a class="btn1" href="https://www.tohoku.ac.jp/japanese/">大学HP</a>
+                            <a class="btn1" href="https://www.tohoku.ac.jp/japanese/" target="_blank">大学HP</a>
                             <a class="btn1" href="<?php print_r($arrayLine["url_26"]); ?>"><?php print_r($arrayLine["class_26"]); ?></a>
                         </tr>
                         <tr>
