@@ -164,7 +164,7 @@ $stmt_->execute($params_);
                 <p></p>
     			<h1 class="title">TOHOKU LINKS</h1>
     			<p>
-                    Googe Classroom、大学HP、ポータルサイトなどにアクセスできます。<br><br>
+                    Google Classroom、大学HP、ポータルサイトなどにアクセスできます。<br><br>
 
                     <?php if( $judge === false ){
                         echo("エラー:");
