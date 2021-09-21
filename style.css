@@ -210,12 +210,12 @@ button[type="submit"]:hover, .back:hover{
 	border: 1px solid #ffffff;
 	box-shadow: 1px 1px 2px 0 #707070 inset;
 	border-radius: 4px;
-    background-color: white;
+    background-color: #ffffff;
 }
 .ef input[type='text']:focus {
 	outline: none;
 	box-shadow: inset 1px 1px 2px 0 #c9c9c9;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 
 /*
