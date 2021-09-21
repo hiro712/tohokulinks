@@ -145,11 +145,11 @@ RESISTRATION
     margin-left: auto;
     margin-right: auto;
     background: #555;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     width: 500px;
     
-    line-height: 3rem;
+    line-height: 2.5rem;
     text-align: center;
 }
 
@@ -192,6 +192,30 @@ button[type="submit"]:hover, .back:hover{
     background:white;
     color:#555;
     border: 2px solid #555;
+}
+
+.cp_iptxt {
+	position: relative;
+	width: 400px;
+	margin: 10px auto;
+}
+.cp_iptxt input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #ffffff;
+	box-shadow: 1px 1px 2px 0 #707070 inset;
+	border-radius: 4px;
+    background-color: white;
+}
+.ef input[type='text']:focus {
+	outline: none;
+	box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+    background-color: whitesmoke;
 }
 
 /*
