@@ -329,8 +329,16 @@ $stmt_->execute($params_);
                         </tr>
 
                     </table>
-                    <p><br>科目名：<input type="text" name="lecture" required></p>
-                    <p>URL：<input type="text" name="gurl" required></p>
+                    <div class="cp_iptxt">
+			<label class="ef">
+			    <input type="text" placeholder="科目名" name="lecture" required>
+			</label>
+		    </div>
+		    <div class="cp_iptxt">
+			<label class="ef">
+			    <input type="text" placeholder="URL" name="lecture" required>
+			</label>
+	            </div>
                     <input type="hidden" name="username" value=<?php echo($name); ?>>
                     <input type="hidden" name="password" value=<?php echo($pass); ?>>
                     <button type="submit">送信</button>
@@ -343,7 +351,7 @@ $stmt_->execute($params_);
         <footer>
             <div class="menu">
                 <ul>
-                    <li>    &copy; 2021 Hiroto ABE, Tohoku University Inc. All Rights Reserved.   Ver.1.3.0 </li>
+                    <li>    &copy; 2021 Hiroto ABE, Tohoku University Inc. All Rights Reserved.   Ver.1.3.2 </li>
                 </ul>
             </div>
         </footer>
