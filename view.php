@@ -336,7 +336,7 @@ $stmt_->execute($params_);
 		    </div>
 		    <div class="cp_iptxt">
 			<label class="ef">
-			    <input type="text" placeholder="URL" name="lecture" required>
+			    <input type="text" placeholder="URL" name="gurl" required>
 			</label>
 	            </div>
                     <input type="hidden" name="username" value=<?php echo($name); ?>>
