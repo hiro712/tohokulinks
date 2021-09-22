@@ -284,7 +284,7 @@ $stmt_->execute($params_);
                         <tr><th>＝</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th></tr>
                         <tr>
                             <td>1</td>
-                            <td class="radio1"><input type="radio" name="radio" value="0" ></td>
+                            <td class="radio1"><input type="radio" name="radio" value="0" required></td>
                             <td class="radio1"><input type="radio" name="radio" value="1" ></td>
                             <td class="radio1"><input type="radio" name="radio" value="2" ></td>
                             <td class="radio1"><input type="radio" name="radio" value="3" ></td>
