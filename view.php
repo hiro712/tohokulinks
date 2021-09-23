@@ -202,14 +202,17 @@ $stmt_->execute($params_);
                         <tr>
                             <a class="btn1" href="https://www.tohoku.ac.jp/japanese/" target="_blank">大学HP</a>
                             <a class="btn1" href="<?php print_r($arrayLine["url_26"]); ?>" target="_blank"><?php print_r($arrayLine["class_26"]); ?></a>
-                        </tr>
-                        <tr>
                             <a class="btn1" href="<?php print_r($arrayLine["url_27"]); ?>" target="_blank"><?php print_r($arrayLine["class_27"]); ?></a>
-                            <a class="btn1" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html" target="_blank">全学教育</a>
-                        </tr>
+			</tr>
                         <tr>
+                            <a class="btn1" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html" target="_blank">全学教育</a>
                             <a class="btn1" href="https://www.srp.tohoku.ac.jp/" target="_blank">ポータルサイト</a>
                             <a class="btn1" href="https://istu3g.dc.tohoku.ac.jp/istu3g/auth/login" target="_blank">ISTU</a>
+			</tr>
+                        <tr>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_28"]); ?>" target="_blank"><?php print_r($arrayLine["class_28"]); ?></a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_29"]); ?>" target="_blank"><?php print_r($arrayLine["class_29"]); ?></a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_30"]); ?>" target="_blank"><?php print_r($arrayLine["class_30"]); ?></a>  
                         </tr>
                        
                     </table>
@@ -326,6 +329,9 @@ $stmt_->execute($params_);
                             <td>-</td>
                             <td class="radio1"><input type="radio" name="radio" value="25" ></td>
                             <td class="radio1"><input type="radio" name="radio" value="26" ></td>
+			    <td class="radio1"><input type="radio" name="radio" value="27" ></td>
+                            <td class="radio1"><input type="radio" name="radio" value="28" ></td>
+		            <td class="radio1"><input type="radio" name="radio" value="29" ></td>
                         </tr>
 
                     </table>
