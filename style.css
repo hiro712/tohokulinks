@@ -46,6 +46,9 @@ HERO
     text-align: center;
     padding-top: 10vh;
 }
+.enews{
+    display none;
+}
 .twitter {
     position:relative;
     bottom:1080px;
@@ -275,6 +278,21 @@ HERO
     background-image: url(Agr_1.jpg);
     text-align: center;
     padding-top: 10vh;
+}
+.enews{
+    border: 0;
+    width: 230px;
+    background: #555;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #555;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 /*
