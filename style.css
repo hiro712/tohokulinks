@@ -47,7 +47,7 @@ HERO
     padding-top: 10vh;
 }
 .enews{
-    opacity: 0;
+    color: transparent;
     display none;
 }
 .twitter {
