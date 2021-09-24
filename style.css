@@ -280,8 +280,9 @@ HERO
     text-align: center;
     padding-top: 10vh;
 }
+
 .enews{
-　　　　　　　　border: 0;
+    border: 0;
     width: 120px;
     background: #555;
     display: block;
