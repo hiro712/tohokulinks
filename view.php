@@ -177,7 +177,7 @@ $stmt_->execute($params_);
                     下にスクロールしてご利用ください。<br>
 		</p>
                     <a class="back" href="account.html">アカウント管理</a>
-                    <a class="back" href="https://forms.gle/KUUAUuDbdFBCkus49">お問い合わせ</a>
+                    <a class="back" href="form.html">お問い合わせ</a>
 		　　　　　　　　<a class="back" href="manual.pdf">使い方</a>
 		    <a class="enews" href="info.html">お知らせ</a>
 	　　　　　　　　　　　　　　　　　　　　　　　　
