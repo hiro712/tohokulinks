@@ -208,7 +208,7 @@ $stmt_->execute($params_);
                         <tr>
                             <a class="btn1" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html" target="_blank">全学教育</a>
                             <a class="btn1" href="https://www.srp.tohoku.ac.jp/" target="_blank">ポータルサイト</a>
-                            <a class="btn1" href="https://istu3g.dc.tohoku.ac.jp/istu3g/auth/login" target="_blank">ISTU</a>
+                            <a class="btn1" href="https://istu4g.dc.tohoku.ac.jp/srp_login.php" target="_blank">ISTU</a>
 			</tr>
                         <tr>
                             <a class="btn1" href="<?php print_r($arrayLine["url_28"]); ?>" target="_blank"><?php print_r($arrayLine["class_28"]); ?></a>
