@@ -234,43 +234,43 @@ $stmt_->execute($params_);
                         </tr>
                         <tr>
                             <a class="btn2" href="#">1</a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_1"]); ?>"><?php print_r($arrayLine["class_1"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_2"]); ?>"><?php print_r($arrayLine["class_2"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_3"]); ?>"><?php print_r($arrayLine["class_3"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_4"]); ?>"><?php print_r($arrayLine["class_4"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_5"]); ?>"><?php print_r($arrayLine["class_5"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_1"]); ?>" target="_blank"><?php print_r($arrayLine["class_1"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_2"]); ?>" target="_blank"><?php print_r($arrayLine["class_2"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_3"]); ?>" target="_blank"><?php print_r($arrayLine["class_3"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_4"]); ?>" target="_blank"><?php print_r($arrayLine["class_4"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_5"]); ?>" target="_blank"><?php print_r($arrayLine["class_5"]); ?></a>
                         </tr>
                         <tr>
                             <a class="btn2" href="#">2</a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_6"]); ?>"><?php print_r($arrayLine["class_6"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_7"]); ?>"><?php print_r($arrayLine["class_7"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_8"]); ?>"><?php print_r($arrayLine["class_8"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_9"]); ?>"><?php print_r($arrayLine["class_9"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_10"]); ?>"><?php print_r($arrayLine["class_10"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_6"]); ?>" target="_blank"><?php print_r($arrayLine["class_6"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_7"]); ?>" target="_blank"><?php print_r($arrayLine["class_7"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_8"]); ?>" target="_blank"><?php print_r($arrayLine["class_8"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_9"]); ?>" target="_blank"><?php print_r($arrayLine["class_9"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_10"]); ?>" target="_blank"><?php print_r($arrayLine["class_10"]); ?></a>
                         </tr>
                         <tr>
                             <a class="btn2" href="#">3</a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_11"]); ?>"><?php print_r($arrayLine["class_11"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_12"]); ?>"><?php print_r($arrayLine["class_12"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_13"]); ?>"><?php print_r($arrayLine["class_13"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_14"]); ?>"><?php print_r($arrayLine["class_14"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_15"]); ?>"><?php print_r($arrayLine["class_15"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_11"]); ?>" target="_blank"><?php print_r($arrayLine["class_11"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_12"]); ?>" target="_blank"><?php print_r($arrayLine["class_12"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_13"]); ?>" target="_blank"><?php print_r($arrayLine["class_13"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_14"]); ?>" target="_blank"><?php print_r($arrayLine["class_14"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_15"]); ?>" target="_blank"><?php print_r($arrayLine["class_15"]); ?></a>
                         </tr>
                         <tr>
                             <a class="btn2" href="#">4</a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_16"]); ?>"><?php print_r($arrayLine["class_16"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_17"]); ?>"><?php print_r($arrayLine["class_17"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_18"]); ?>"><?php print_r($arrayLine["class_18"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_19"]); ?>"><?php print_r($arrayLine["class_19"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_20"]); ?>"><?php print_r($arrayLine["class_20"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_16"]); ?>" target="_blank"><?php print_r($arrayLine["class_16"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_17"]); ?>" target="_blank"><?php print_r($arrayLine["class_17"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_18"]); ?>" target="_blank"><?php print_r($arrayLine["class_18"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_19"]); ?>" target="_blank"><?php print_r($arrayLine["class_19"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_20"]); ?>" target="_blank"><?php print_r($arrayLine["class_20"]); ?></a>
                         </tr>
                         <tr>
                             <a class="btn2" href="#">5</a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_21"]); ?>"><?php print_r($arrayLine["class_21"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_22"]); ?>"><?php print_r($arrayLine["class_22"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_23"]); ?>"><?php print_r($arrayLine["class_23"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_24"]); ?>"><?php print_r($arrayLine["class_24"]); ?></a>
-                            <a class="btn2" href="<?php print_r($arrayLine["url_25"]); ?>"><?php print_r($arrayLine["class_25"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_21"]); ?>" target="_blank"><?php print_r($arrayLine["class_21"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_22"]); ?>" target="_blank"><?php print_r($arrayLine["class_22"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_23"]); ?>" target="_blank"><?php print_r($arrayLine["class_23"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_24"]); ?>" target="_blank"><?php print_r($arrayLine["class_24"]); ?></a>
+                            <a class="btn2" href="<?php print_r($arrayLine["url_25"]); ?>" target="_blank"><?php print_r($arrayLine["class_25"]); ?></a>
                         </tr>
                        
                     </table>
