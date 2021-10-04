@@ -194,33 +194,10 @@ $stmt_->execute($params_);
                     
                 </div>
 
-    		</section>
-
-    		<section class="tohoku">
-                <div class="wrapper">
-        			<h2 class="title">LINKS</h2>
-                    <table class="link-list">
-                        <tr>
-                            <a class="btn1" href="https://www.tohoku.ac.jp/japanese/" target="_blank">大学HP</a>
-                            <a class="btn1" href="<?php print_r($arrayLine["url_26"]); ?>" target="_blank"><?php print_r($arrayLine["class_26"]); ?></a>
-                            <a class="btn1" href="<?php print_r($arrayLine["url_27"]); ?>" target="_blank"><?php print_r($arrayLine["class_27"]); ?></a>
-			</tr>
-                        <tr>
-                            <a class="btn1" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html" target="_blank">全学教育</a>
-                            <a class="btn1" href="https://www.srp.tohoku.ac.jp/" target="_blank">ポータルサイト</a>
-                            <a class="btn1" href="https://istu4g.dc.tohoku.ac.jp/srp_login.php" target="_blank">ISTU</a>
-			</tr>
-                        <tr>
-                            <a class="btn1" href="<?php print_r($arrayLine["url_28"]); ?>" target="_blank"><?php print_r($arrayLine["class_28"]); ?></a>
-                            <a class="btn1" href="<?php print_r($arrayLine["url_29"]); ?>" target="_blank"><?php print_r($arrayLine["class_29"]); ?></a>
-                            <a class="btn1" href="<?php print_r($arrayLine["url_30"]); ?>" target="_blank"><?php print_r($arrayLine["class_30"]); ?></a>  
-                        </tr>
-                       
-                    </table>
-                </div>
-    		</section>
-
-    		<section class="classroom">
+    	    </section>
+		
+		
+            <section class="classroom">
     			<h2 class="title">GoogleClassroom</h2>
                 <div class="wrapper">
                     <table class="link-list">
@@ -277,8 +254,33 @@ $stmt_->execute($params_);
                     <a class="back" href="login.html">LOGIN画面へ</a>
                 </div>
 
+    	    </section>
 
-    		</section>
+		
+    	    <section class="tohoku">
+                <div class="wrapper">
+        			<h2 class="title">LINKS</h2>
+                    <table class="link-list">
+                        <tr>
+                            <a class="btn1" href="https://www.tohoku.ac.jp/japanese/" target="_blank">大学HP</a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_26"]); ?>" target="_blank"><?php print_r($arrayLine["class_26"]); ?></a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_27"]); ?>" target="_blank"><?php print_r($arrayLine["class_27"]); ?></a>
+			</tr>
+                        <tr>
+                            <a class="btn1" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html" target="_blank">全学教育</a>
+                            <a class="btn1" href="https://www.srp.tohoku.ac.jp/" target="_blank">ポータルサイト</a>
+                            <a class="btn1" href="https://istu4g.dc.tohoku.ac.jp/srp_login.php" target="_blank">ISTU</a>
+			</tr>
+                        <tr>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_28"]); ?>" target="_blank"><?php print_r($arrayLine["class_28"]); ?></a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_29"]); ?>" target="_blank"><?php print_r($arrayLine["class_29"]); ?></a>
+                            <a class="btn1" href="<?php print_r($arrayLine["url_30"]); ?>" target="_blank"><?php print_r($arrayLine["class_30"]); ?></a>  
+                        </tr>
+                       
+                    </table>
+                </div>
+    	    </section>
+		
 
             <section class="input">
                 <h2 class="title">--Registration--</h2>
@@ -358,7 +360,7 @@ $stmt_->execute($params_);
         <footer>
             <div class="menu">
                 <ul>
-                    <li>    &copy; 2021 Hiroto ABE, Tohoku University Inc. All Rights Reserved.   Ver.1.4.2 </li>
+                    <li>    &copy; 2021 Hiroto ABE, Tohoku University Inc. All Rights Reserved.   Ver.1.4.3 </li>
                 </ul>
             </div>
         </footer>
