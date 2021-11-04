@@ -195,7 +195,6 @@ $stmt_->execute($params_);
     
 <section id="top" class="scroll-point">
     <h2>TOHOKULINKS</h2>
-    <strong>Google Classroom、大学HP、ポータルサイトなどにアクセスできます。<br></strong>
     <strong>
         <?php if( $judge === false ){
         echo("エラー:");
