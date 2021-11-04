@@ -416,7 +416,7 @@ $stmt_->execute($params_);
             <li><a href="#contact">Contact</a></li>
             <li><a href="#info1" class="info">Registration</a></li>
 			<li><a href="manual.pdf">How to Use</a></li>
-			<li><a href="index.html"></a>Logout</li>
+			<li><a href="index.html">Logout</a></li>
             <li><a href="changepw.html">パスワード変更</a></li>
             <li><a href="delete.html">アカウント削除</a></li>
         </ul>
