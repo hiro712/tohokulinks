@@ -339,8 +339,8 @@ table.link-list td:hover {
 /*table全体のレスポンシブ*/
 
 @media screen and (max-width:990px) {
-    table {
-        width: 100%;
+    table.link-list {
+        width: 70%;
     }
     .btn {
         font-size: medium;
