@@ -137,14 +137,8 @@ h1 {
 	padding-bottom: 10px;
 }
 
-p {
+p, strong {
 	font-size: 60%;
-	padding-top: 5px;
-	line-height: 1.5em; /* 文字の高さ戻す */
-}
-
-strong {
-	font-size: 100%;
 	padding-top: 5px;
 	line-height: 1.5em; /* 文字の高さ戻す */
 }
