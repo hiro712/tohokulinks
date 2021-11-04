@@ -41,7 +41,7 @@ function ScrollAnime() {//スクロールした際のナビゲーションの関
 $('#pc-nav a,#g-nav a').click(function () {
 	var elmHash = $(this).attr('href'); //hrefの内容を取得
 	var headerH = $("#header").outerHeight(true);//追従するheader分の高さ（70px）を引く
-	var pos = Math.round($(elmHash).offset().top-headerH);	//headerの高さを引き小数点を四捨五入
+	var pos = Math.round($(elmHash).offset().top-headerH-40);	//headerの高さを引き小数点を四捨五入 さらに調整分40pxを引いた
 	$('body,html').animate({scrollTop: pos}, 500);//取得した位置にスクロール※数値が大きいほどゆっくりスクロール
 	return false;//リンクの無効化
 });

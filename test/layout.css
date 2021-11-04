@@ -161,7 +161,7 @@ h2{
 
 @media screen and (max-width:550px) {
 #classroom h2{
-    margin:0 0 50px 0;
+    margin:50px 0 30px 0;
     }
 }
 
@@ -314,7 +314,7 @@ button[type="submit"] {
 
 @media screen and (max-width:550px) {
 #links h2{
-    margin:0 0 50px 0;
+    margin:50px 0 30px 0;
     }
 }
 
@@ -360,6 +360,10 @@ table.link-list td:hover {
     }
 }
 @media screen and (max-width:550px) {
+    table.link-list {
+        width: 90%;
+    }
+
     .btn {
         font-size: xx-small;
     }
@@ -395,7 +399,7 @@ table.link-list td:hover {
 }
     
 #faq h2{
- margin: 0 0 50px 0;
+ margin: 50px 0 30px 0;
     }
 }
 
@@ -409,6 +413,19 @@ table.link-list td:hover {
 .framewrap {
     text-align: center;
 }
+.framewrap2 {
+    text-align: center;
+    display: none;
+}
+
+@media screen and (max-width:550px) {
+    .framewrap {
+        display: none;
+    }
+    .framewrap2 {
+        display: inline;
+    }
+   }
 
 #contact h2{
     text-align: center;
@@ -418,7 +435,7 @@ table.link-list td:hover {
 
 @media screen and (max-width:550px) {
  #contact h2{
-     margin:0 0 50px 0;
+     margin:0 0 30px 0;
     }
 }
 

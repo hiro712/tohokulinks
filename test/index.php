@@ -397,6 +397,9 @@ $stmt_->execute($params_);
     <div class="framewrap">
         <iframe class="fadeUpTrigger" src="https://docs.google.com/forms/d/e/1FAIpQLSc7SrIDrwsBux8b9L6SyLvkbXUbi2wcE2O3QIjshA6uf0zkQw/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
     </div>
+	<div class="framewrap2">
+        <p class="fadeUpTrigger" style="font-weight: bolder;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc7SrIDrwsBux8b9L6SyLvkbXUbi2wcE2O3QIjshA6uf0zkQw/viewform?embedded=true">お問い合わせはこちらから→</a></p>
+    </div>
 </section>
 </main>
 <!--/container--></div>	
@@ -413,6 +416,7 @@ $stmt_->execute($params_);
             <li><a href="#contact">Contact</a></li>
             <li><a href="#info1" class="info">Registration</a></li>
 			<li><a href="manual.pdf">How to Use</a></li>
+			<li><a href="index.html"></a>Logout</li>
             <li><a href="changepw.html">パスワード変更</a></li>
             <li><a href="delete.html">アカウント削除</a></li>
         </ul>

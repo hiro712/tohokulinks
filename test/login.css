@@ -13,6 +13,8 @@ body {
     line-height: 2.5em; /* 文字の高さ */
     padding-bottom: 1px; /* 最終行の下にも罫線を引く */
 
+	font-family:"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
 }
 
 h1{
@@ -128,6 +130,18 @@ h1{
 MOBILE SIZE
 ================================================ */
 @media (max-width: 480px) {
+
+h1 {
+	font-size: 200%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+p, strong {
+	font-size: 60%;
+	padding-top: 5px;
+	line-height: 1.5em; /* 文字の高さ戻す */
+}
 
 /*ログインフォームのエリア内のスタイル*/
 .box{
