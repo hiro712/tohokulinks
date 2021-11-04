@@ -347,6 +347,9 @@ table.link-list td:hover {
     }
 }
 @media screen and (max-width:800px) {
+    table.link-list {
+        width: 90%;
+    }
     .btn {
         font-size: smaller;
     }
@@ -360,9 +363,6 @@ table.link-list td:hover {
     }
 }
 @media screen and (max-width:550px) {
-    table.link-list {
-        width: 90%;
-    }
 
     .btn {
         font-size: xx-small;
