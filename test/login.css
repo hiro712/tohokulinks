@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* レイアウトのためのCSS */
+
+:root {
+    --maincolor: rgb(46, 0, 114); /* #2e0072 */
+    --textcolor: #333;
+}
+
+body {
+	background-color: #f3f3f3;
+    background-image: linear-gradient(180deg, #ccc 1px, transparent 1px); /* 罫線の色と太さ  */
+    background-size: 100% 2.5em; /* 行の高さ */
+    line-height: 2.5em; /* 文字の高さ */
+    padding-bottom: 1px; /* 最終行の下にも罫線を引く */
+
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 4rem;
+	color: var(--maincolor);
+	font-weight: bolder;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+
+
+.hero {
+	text-align: center;
+	padding-top: 10vh;
+  }
+
+.maincolor {
+	color: var(--maincolor);
+}
+
+.redcolor {
+	color: red;
+}
+
+/*ログインフォームのエリア内のスタイル*/
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	line-height: 1em; /* 文字の高さ戻す */
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #333;
+	text-align: center;
+  }
+  
+  .box{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+  }
+  
+  /* ユーザーIDとパスワード入力ボックスのスタイル */
+  .box input[type="text"], .box input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+  }
+  
+  /* 入力ボックスがフォーカスされたときのスタイル（幅が大きくなる＆枠の色が変わる） */
+  .box input[type="text"]:focus, .box input[type="password"]:focus{
+	width: 280px;
+	position: relative;
+	left: -31px;
+	border-color: white;
+  }
+  
+  /* Loginボタンのスタイル */
+  .box input[type="submit"], .registration{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+  }
+  
+  .complete{
+	width: 300px;
+	border: 0;
+	background: #555;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #555;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+  }
+  
+  /* Loginボタンをマウスオーバーしたときのスタイル */
+  .box input[type="submit"]:hover, .registration:hover, .complete:hover{
+	background:white;
+	color:#555;
+	border: 2px solid #555;
+	 
+  }
+
+/*
+MOBILE SIZE
+================================================ */
+@media (max-width: 480px) {
+
+/*ログインフォームのエリア内のスタイル*/
+.box{
+	width: 240px;
+	padding: 30px;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #555;
+	text-align: center;
+	}
+	
+	.box{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+	}
+	
+	/* ユーザーIDとパスワード入力ボックスのスタイル */
+	.box input[type="text"], .box input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 160px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	}
+	
+	/* 入力ボックスがフォーカスされたときのスタイル（幅が大きくなる＆枠の色が変わる） */
+	.box input[type="text"]:focus, .box input[type="password"]:focus{
+	width: 200px;
+	position: relative;
+	left: -12px;
+	border-color: white;
+	}
+	
+	/* Loginボタンのスタイル */
+	.box input[type="submit"], .registration{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	}
+	
+	.complete{
+	width: 300px;
+	border: 0;
+	background: #555;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #555;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	}
+	
+	/* Loginボタンをマウスオーバーしたときのスタイル */
+	.box input[type="submit"]:hover, .registration:hover, .complete:hover{
+	background:white;
+	color:#555;
+	border: 2px solid #555;
+	 
+	}
+}
