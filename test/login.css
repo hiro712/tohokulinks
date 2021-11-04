@@ -140,7 +140,7 @@ h1 {
 p, strong {
 	font-size: 60%;
 	padding-top: 5px;
-	line-height: 1.5em; /* 文字の高さ戻す */
+	line-height: 1em; /* 文字の高さ戻す */
 }
 
 /*ログインフォームのエリア内のスタイル*/
