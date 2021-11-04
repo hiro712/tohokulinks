@@ -418,7 +418,7 @@ table.link-list td:hover {
     display: none;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:700px) {
     .framewrap {
         display: none;
     }
