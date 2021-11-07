@@ -208,9 +208,8 @@ $stmt_->execute($params_);
 <section id="topics">
     <h2>News</h2><a href="#info0" class="info"><small><u>クリック</u>すると詳細を表示します。</small></a>
     <ul class="slider">
-    <li><a href="#info0" class="info"><time datetime="2021-11-01">2021.11.01</time>TV「アサカツデジ」で放送されました。</a></li>
-    <li><a href="#info0" class="info"><time datetime="2021-11-02">2021.11.02</time>杉山商事様でセミナーを行いました</a></li>
-    <li><a href="#info0" class="info"><time datetime="2021-11-03">2021.11.03</time>中途採用情報</a></li>
+    <li><a href="#info0" class="info"><time datetime="2021-11-15">2021.11.01</time>利用者数が300人を超えました</a></li>
+    <li><a href="#info0" class="info"><time datetime="2021-11-02">2021.11.15</time>新しいUIに変更になりました</a></li>
     </ul>
 </section>
 
