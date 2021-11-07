@@ -206,7 +206,7 @@ $stmt_->execute($params_);
 </section>
 
 <section id="topics">
-    <h2><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">News</span></span></h2>
+    <h2>News<small>クリックすると詳細を表示します。</small></h2>
     <ul class="slider">
     <li><a href="#info0" class="info"><time datetime="2021-11-01">2021.11.01</time>TV「アサカツデジ」で放送されました。</a></li>
     <li><a href="#info0" class="info"><time datetime="2021-11-02">2021.11.02</time>杉山商事様でセミナーを行いました</a></li>
