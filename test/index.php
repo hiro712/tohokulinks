@@ -208,7 +208,7 @@ $stmt_->execute($params_);
     <h2>News</h2><a href="#info0" class="info"><small><u>クリック</u>すると詳細を表示します。</small></a>
     <ul class="slider">
         <!-- ここからNEWSのタイトルを記入 -->
-        <li><a href="#info0" class="info"><time datetime="2021-11-02">2021.11.15</time>新しいUIに変更になりました</a></li>
+        <li><a href="#info0" class="info"><time datetime="2021-11-02">2021.11.15</time>新しいUIに変更になりました<span class= "newicon">NEW</span></a></li>
         <li><a href="#info0" class="info"><time datetime="2021-11-15">2021.11.01</time>利用者数が300人を超えました</a></li>
         <!-- ここまでNEWSのタイトルを記入 -->
     </ul>
