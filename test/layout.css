@@ -207,12 +207,12 @@ h2{
 	color: blue;
 }
 
-
-/* classroom */
-
-#classroom {
+div .clear {
     clear: both;
 }
+
+
+/* classroom */
 
 #classroom h2{
     text-align: center;

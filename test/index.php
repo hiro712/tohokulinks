@@ -256,6 +256,8 @@ $stmt_->execute($params_);
 
     </div>
 
+<div class="clear"></div> <!--空のdiv.float調整用-->
+
 <section id="classroom" class="scroll-point">
     <h2>Classroom</h2>
 
