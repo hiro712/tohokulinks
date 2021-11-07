@@ -195,13 +195,13 @@ $stmt_->execute($params_);
     
 <section id="top" class="scroll-point">
     <h2>TOHOKULINKS</h2>
-    <strong>
+    <strong class="imp">
         <?php if( $judge === false ){
         echo("エラー:");
         echo($takenname);
         echo("さんは存在しなかったため登録はできませんでした。");
         echo("\n");}?>
-    </strong>
+    </strong><br>
     <strong>こんにちは、<?php echo htmlspecialchars($name); ?> さん。</strong>
 </section>
 
