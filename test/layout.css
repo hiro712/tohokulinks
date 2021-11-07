@@ -142,6 +142,7 @@ h2{
 /* top */
 
 #top {
+    width: 50%;
     text-align: center;
     float: left;
 }
