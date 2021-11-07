@@ -157,6 +157,7 @@ h2{
 #topics{
     border-left:3px solid #000;
     padding: 0 0 0 20px;
+    margin: 100px 0 0 0;
     width: 50%;
     float: right;
 }
@@ -200,6 +201,10 @@ h2{
 
 
 /* classroom */
+
+#classroom {
+    clear: both;
+}
 
 #classroom h2{
     text-align: center;
