@@ -250,6 +250,7 @@ table.class-list th, td {
     color: #fff;
     text-align: center;
     padding: 20px 10px;
+    overflow: hidden;
 }
 table.class-list td:hover {
     background: #777;
@@ -391,6 +392,7 @@ table.link-list th, td {
     color: #fff;
     text-align: center;
     padding: 20px 10px;
+    overflow: hidden;
 }
 table.link-list td:hover {
     background: #777;
@@ -428,6 +430,12 @@ table.link-list td:hover {
     .btn {
         font-size: xx-small;
     }
+}
+
+/*テーブルのaタグ*/
+td a {
+    margin: -50%;
+    padding: 50% 50%;
 }
 
 
