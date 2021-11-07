@@ -184,7 +184,6 @@ $stmt_->execute($params_);
             <li><a href="#links">Links</a></li>
             <li><a href="#faq">Faq</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#info1" class="info">Registration</a></li>
         </ul>
 </nav>   
 </header>
