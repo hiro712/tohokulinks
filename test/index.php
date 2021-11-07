@@ -203,15 +203,16 @@ $stmt_->execute($params_);
         echo("\n");}?>
     </strong>
     <strong>こんにちは、<?php echo htmlspecialchars($name); ?> さん。</strong>
+</section>
 
-    <section id="topics">
+<section id="topics">
     <h2><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">News</span></span></h2>
     <ul class="slider">
     <li><a href="#info0" class="info"><time datetime="2021-11-01">2021.11.01</time>TV「アサカツデジ」で放送されました。</a></li>
     <li><a href="#info0" class="info"><time datetime="2021-11-02">2021.11.02</time>杉山商事様でセミナーを行いました</a></li>
     <li><a href="#info0" class="info"><time datetime="2021-11-03">2021.11.03</time>中途採用情報</a></li>
     </ul>
-    </section>
+</section>
 
     <div id="info0" class="hide-area">
         <!-- ここからNEWSを記入 -->
@@ -254,7 +255,6 @@ $stmt_->execute($params_);
         <!-- ここまでNEWSを記入 -->
 
     </div>
-</section>
 
 <section id="classroom" class="scroll-point">
     <h2>Classroom</h2>
