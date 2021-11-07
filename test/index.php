@@ -461,7 +461,7 @@ $stmt_->execute($params_);
 					<section>
 						<h3 class="title">以前のUIの方がよかった。</h3>
 						<div class="box">
-							<p>以前のUIは<a href="#"><u>こちら→</u></a>から利用できます。どうぞご利用ください。</p>
+							<p>以前のUIは<a href="old/login.html"><u>ここから→</u></a>利用できます。どうぞご利用ください。</p>
 						</div>
 					</section>
 				</li>
