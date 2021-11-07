@@ -457,6 +457,14 @@ $stmt_->execute($params_);
 						</div>
 					</section>
 				</li>
+                <li class="fadeUpTrigger">
+					<section>
+						<h3 class="title">以前のUIの方がよかった。</h3>
+						<div class="box">
+							<p>以前のUIは<a href="#"><u>こちら→</u></a>から利用できます。どうぞご利用ください。</p>
+						</div>
+					</section>
+				</li>
 			</ul>
 </section>
 <section id="contact" class="scroll-point">
