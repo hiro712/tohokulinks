@@ -438,6 +438,12 @@ td a {
     padding: 50% 50%;
     font-weight: bold;
 }
+@media screen and (max-width:550px) {
+
+    td a {
+        font-weight: normal;
+    }
+}
 
 
 
