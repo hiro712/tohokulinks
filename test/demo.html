@@ -2,9 +2,9 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>1-7 ミニマルな企業サイト</title>
-<meta name="description"  content="書籍「動くWebデザインアイディア帳」のサンプルサイトです">
-<meta name="robots" content="noindex,nofollow"><meta name="keywords"  content="">
+<title>TOHOKULINKS</title>
+<meta name="description"  content="TOHOKULINKS|授業で使う各サイトに素早くアクセスできます！">
+<meta name="keywords"  content="TOHOKULINKS, 東北大, 授業, 時間割, classroom, google">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <!--=============Google Font ===============-->
 <link href="https://fonts.googleapis.com/css?family=Lato:900&display=swap" rel="stylesheet">
@@ -35,7 +35,6 @@
             <li><a href="#links">Links</a></li>
             <li><a href="#faq">Faq</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#info1" class="info">Registration</a></li>
         </ul>
 </nav>   
 </header>
@@ -46,16 +45,84 @@
     
 <section id="top" class="scroll-point">
     <h2>TOHOKULINKS</h2>
-    <strong>Google Classroom、大学HP、ポータルサイトなどにアクセスできます。<br></strong>
-    <strong>
+    <!--<strong class="imp">
         <?php if( $judge === false ){
         echo("エラー:");
         echo($takenname);
         echo("さんは存在しなかったため登録はできませんでした。");
         echo("\n");}?>
-    </strong>
-    <strong>こんにちは、<?php echo htmlspecialchars($name); ?> さん。</strong>
+    </strong>--><br>
+    <strong>こんにちは、ゲスト さん。</strong>
 </section>
+
+<section id="topics">
+    <h2>News</h2><a href="#info0" class="info"><small><u>クリック</u>すると詳細を表示します。</small></a>
+    <ul class="slider">
+        <!-- ここからNEWSのタイトルを記入 -->
+        <li><a href="#info0" class="info"><time datetime="2021-11-02">2021.11.15</time>新しいUIに変更になりました<span class= "newicon">NEW</span></a></li>
+        <li><a href="#info0" class="info"><time datetime="2021-11-15">2021.11.01</time>利用者数が300人を超えました</a></li>
+        <!-- ここまでNEWSのタイトルを記入 -->
+    </ul>
+</section>
+
+    <div id="info0" class="hide-area">
+        <!-- ここからNEWSを記入 -->
+
+        <u><p>2021/11/07<br></p></u>
+          <p class="imp">11/15(月)0:00より新UIに変更になります。それに伴いURLが変更になるため、ブックマークなどしている場合はご注意ください。新しいURLは<a href="https://tohokulinks.herokuapp.com/index.html" target="_blank">https://tohokulinks.herokuapp.com/index.html</a>になります。現在はまだ使用できません。<span class= "newicon">NEW</span></p><br>
+
+        <u><p>2021/10/04<br></p></u>
+          <p>「Google Classroom」と「LINKS」のセクションを入れ替えました。「Google Classroom」を使う頻度の方が多いため、ページ上部にあったほうが良いというご提案をいただきました。</p><br>
+
+        <u><p>2021/10/01<br></p></u>
+          <p>「TOHOKULINKS」を使っていただきありがとうございます。さて、今日から後期が始まりました。良かったらこのサイトをTwitterなどで広めていただけると嬉しいです。これからも開発・運営へのご協力よろしくおねがいします。</p><br>
+
+        <u><p>2021/10/01<br></p></u>
+          <p>「使い方」を更新しました。09/27にお知らせに書いた、間違った時間割を登録してしまった場合の項目を追加しました。</p><br>
+
+        <u><p>2021/10/01<br></p></u>
+          <p>全ての Google Classroom へのリンクを新しいタブで開くようにしました。</p><br>
+
+        <u><p>2021/09/27<br></p></u>
+          <p>間違って時間割を登録してしまった場合の対処法をご紹介します！まず、もう一度時間割を登録すると上書きできます。入力ミスなどはもう一度登録してください。
+              科目名のみの変更は科目名に新しい科目名、URLに自分のユーザー名を入力することで変更できます。また、元の"-"の状態に戻すには、科目名に"-"、URLに"delete"と入力します。
+              分からないことがありましたら「お問い合わせ」よりご連絡ください。</p><br>
+
+        <u><p>2021/09/23<br></p></u>
+          <p>Ver.1.4に伴って、「使い方」を更新しました。ご覧ください。</p><br>
+
+        <u><p>2021/09/23<br></p></u>
+          <p class="update">Ver.1.4アップデート情報！ ご要望により、「LINKS」に登録できるURLを3つ追加しました。</p><br>
+
+        <u><p>2021/09/20<br></p></u>
+          <p class= "update">Ver.1.2.0アップデート情報！ ご要望により、ユーザー名変更とアカウント削除の項目を追加しました。「アカウント管理」よりパスワード・ユーザー名変更、アカウント削除、プライバシーポリシーの閲覧が行えます。その他、細かい変更を行いました。</p><br>
+
+        <u><p>2021/09/20<br></p></u>
+          <p>本日午前2時-4時の間、アップデートのため一時的にサーバーを停止しました。</p><br>
+
+        <u><p>2021/09/18<br></p></u>
+          <p class= "update">Ver.1.1.0アップデート情報！ ログイン画面にもお知らせを表示しました。</p><br>
+
+        <u><p>2021/09/18<br></p></u>
+          <p>時間割を削除したいときは、科目名に - 、URLに delete と入力してください。</p><br>
+
+        <u><p>2021/09/18<br></p></u>
+          <p class= "imp">必ず使い方をよく読んでからご利用ください。</p><br>
+
+        <u><p>2021/09/18<br></p></u>
+          <p>ユーザー名、パスワードは40文字以内で登録してください。40文字以上で登録しても40文字目までしか反映されません。</p><br>
+
+        <u><p>2021/09/18<br></p></u>
+          <p>本日TOHOKULINKSをTwitterにて公開しました！</p><br>
+
+        <u><p>2021/09/02<br></p></u>
+          <p>本日TOHOKULINKSを公開しました。登録してご利用ください。</p><br>
+
+        <!-- ここまでNEWSを記入 -->
+
+    </div>
+
+<div class="clear"></div> <!--空のdiv.float調整用-->
 
 <section id="classroom" class="scroll-point">
     <h2>Classroom</h2>
@@ -71,43 +138,43 @@
             </tr>
             <tr>
                 <td><a class="btn" href="#">1</a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_1"]); ?>" target="_blank"><?php print_r($arrayLine["class_1"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_2"]); ?>" target="_blank"><?php print_r($arrayLine["class_2"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_3"]); ?>" target="_blank"><?php print_r($arrayLine["class_3"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_4"]); ?>" target="_blank"><?php print_r($arrayLine["class_4"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_5"]); ?>" target="_blank"><?php print_r($arrayLine["class_5"]); ?></a></td>
+                <td><a class="btn" href="#">物理A</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">解析学B</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">-</a></td>
             </tr>
             <tr>
                 <td><a class="btn" href="#">2</a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_6"]); ?>" target="_blank"><?php print_r($arrayLine["class_6"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_7"]); ?>" target="_blank"><?php print_r($arrayLine["class_7"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_8"]); ?>" target="_blank"><?php print_r($arrayLine["class_8"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_9"]); ?>" target="_blank"><?php print_r($arrayLine["class_9"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_10"]); ?>" target="_blank"><?php print_r($arrayLine["class_10"]); ?></a></td>
+                <td><a class="btn" href="#">英語A2-1</a></td>
+                <td><a class="btn" href="#">社会論</a></td>
+                <td><a class="btn" href="#">自然論</a></td>
+                <td><a class="btn" href="#"></a></td>
+                <td><a class="btn" href="#">フランス語</a></td>
             </tr>
             <tr>
                 <td><a class="btn" href="#">3</a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_11"]); ?>" target="_blank"><?php print_r($arrayLine["class_11"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_12"]); ?>" target="_blank"><?php print_r($arrayLine["class_12"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_13"]); ?>" target="_blank"><?php print_r($arrayLine["class_13"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_14"]); ?>" target="_blank"><?php print_r($arrayLine["class_14"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_15"]); ?>" target="_blank"><?php print_r($arrayLine["class_15"]); ?></a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">化学B</a></td>
+                <td><a class="btn" href="#">-</a></td>
             </tr>
             <tr>
                 <td><a class="btn" href="#">4</a>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_16"]); ?>" target="_blank"><?php print_r($arrayLine["class_16"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_17"]); ?>" target="_blank"><?php print_r($arrayLine["class_17"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_18"]); ?>" target="_blank"><?php print_r($arrayLine["class_18"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_19"]); ?>" target="_blank"><?php print_r($arrayLine["class_19"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_20"]); ?>" target="_blank"><?php print_r($arrayLine["class_20"]); ?></a></td>
+                <td><a class="btn" href="#">英語B2-1</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">フランス語</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">-</a></td>
             </tr>
             <tr>
                 <td><a class="btn" href="#">5</a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_21"]); ?>" target="_blank"><?php print_r($arrayLine["class_21"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_22"]); ?>" target="_blank"><?php print_r($arrayLine["class_22"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_23"]); ?>" target="_blank"><?php print_r($arrayLine["class_23"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_24"]); ?>" target="_blank"><?php print_r($arrayLine["class_24"]); ?></a></td>
-                <td><a class="btn" href="<?php print_r($arrayLine["url_25"]); ?>" target="_blank"><?php print_r($arrayLine["class_25"]); ?></a></td>
+                <td><a class="btn" href="#">機械学習A入門</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">-</a></td>
+                <td><a class="btn" href="#">-</a></td>
             </tr>
         </table>
 
@@ -197,8 +264,8 @@
     <table class="link-list fadeUpTrigger">
         <tr>
             <td><a class="btn" href="https://www.tohoku.ac.jp/japanese/" target="_blank">大学HP</a></td>
-            <td><a class="btn" href="<?php print_r($arrayLine["url_26"]); ?>" target="_blank"><?php print_r($arrayLine["class_26"]); ?></a></td>
-            <td><a class="btn" href="<?php print_r($arrayLine["url_27"]); ?>" target="_blank"><?php print_r($arrayLine["class_27"]); ?></a></td>
+            <td><a class="btn" href="#">-</a></td>
+            <td><a class="btn" href="#">-</a></td>
         </tr>
         <tr>
             <td><a class="btn" href="http://www2.he.tohoku.ac.jp/zengaku/zengaku.html" target="_blank">全学教育</a></td>
@@ -206,9 +273,9 @@
             <td><a class="btn" href="https://istu4g.dc.tohoku.ac.jp/srp_login.php" target="_blank">ISTU</a></td>
         </tr>
         <tr>
-            <td><a class="btn" href="<?php print_r($arrayLine["url_28"]); ?>" target="_blank"><?php print_r($arrayLine["class_28"]); ?></a></td>
-            <td><a class="btn" href="<?php print_r($arrayLine["url_29"]); ?>" target="_blank"><?php print_r($arrayLine["class_29"]); ?></a></td>
-            <td><a class="btn" href="<?php print_r($arrayLine["url_30"]); ?>" target="_blank"><?php print_r($arrayLine["class_30"]); ?></a></td>
+            <td><a class="btn" href="#">-</a></td>
+            <td><a class="btn" href="#">-</a></td>
+            <td><a class="btn" href="#">-</a></td>
         </tr>
     </table>
 </section>
@@ -241,6 +308,14 @@
 						</div>
 					</section>
 				</li>
+                <li class="fadeUpTrigger">
+					<section>
+						<h3 class="title">以前のUIの方がよかった。</h3>
+						<div class="box">
+							<p>以前のUIは<a href="old/login.html" target="_blank"><u>ここから→</u></a>利用できます。どうぞご利用ください。</p>
+						</div>
+					</section>
+				</li>
 			</ul>
 </section>
 <section id="contact" class="scroll-point">
@@ -248,7 +323,7 @@
     <div class="framewrap">
         <iframe class="fadeUpTrigger" src="https://docs.google.com/forms/d/e/1FAIpQLSc7SrIDrwsBux8b9L6SyLvkbXUbi2wcE2O3QIjshA6uf0zkQw/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
     </div>
-    <div class="framewrap2">
+	<div class="framewrap2">
         <p class="fadeUpTrigger" style="font-weight: bolder;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc7SrIDrwsBux8b9L6SyLvkbXUbi2wcE2O3QIjshA6uf0zkQw/viewform?embedded=true">お問い合わせはこちらから→</a></p>
     </div>
 </section>
@@ -266,8 +341,10 @@
             <li><a href="#faq">Faq</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#info1" class="info">Registration</a></li>
-            <li><a href="#">パスワード変更</a></li>
-            <li><a href="#">アカウント削除</a></li>
+			<li><a href="manual.pdf">How to Use</a></li>
+			<li><a href="index.html">Logout</a></li>
+            <li><a href="changepw.html">パスワード変更</a></li>
+            <li><a href="delete.html">アカウント削除</a></li>
         </ul>
 </div>
 </div> 
