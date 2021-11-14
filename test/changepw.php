@@ -118,14 +118,15 @@ $stmt->execute($params);
     <head>
         <meta charset="utf-8">
         <title>TOHOKULINKS</title>
-        <meta name="description" content="授業で使う各サイトに素早くアクセスできます！">
+        <meta name="description"  content="TOHOKULINKS|授業で使う各サイトに素早くアクセスできます！">
+        <meta name="keywords"  content="TOHOKULINKS, 東北大, 授業, 時間割, classroom, google">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <!--=============Google Font ===============-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:900&display=swap" rel="stylesheet">
         <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
         <link href="login.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
     </head>
 
