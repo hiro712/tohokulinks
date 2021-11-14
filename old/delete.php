@@ -2,15 +2,13 @@
 
 // Defining each variable.
 $name = $_POST["username"];
-$pass = $_POST["password1"];
-$pass_ = $_POST["password2"];
+$pass = $_POST["password"];
 
 
 
 //　Determine if a username was POST-ed.
-if(empty($name)){
-	header( "Location: index.html" );
-    exit;
+if($name == NULL){
+	header( "Location: login.html" );
 }
 
 
@@ -62,38 +60,46 @@ function h($var)
 
 
 
-// Verify that the user name does not already exist.
+// Make name and pass Array.
 $nameArray = array_column($nameAndPass, 'name');
-$judge = in_array("$name", $nameArray);
+$passArray = array_column($nameAndPass, 'usercol');
+$userID = array_search("$name", $nameArray);
 
-if($judge === true){
-    header( "Location: reregistration2.html" );
-    exit;
+
+
+// Determine if the Password is correct.
+if( $passArray[$userID] !== $pass ){
+    header( "Location: relogin.html" );
+    exit; 
 }
 
 
 
-// Verify that the two passwords match
-if($pass !== $pass_){
-    header( "Location: reregistration1.html" );
-    exit;
+// Varify that userID exists.
+$nameArray = array_column($nameAndPass, 'name');
+$userID = array_search("$name", $nameArray);
+
+if($userID === false){
+    header( "Location: relogin.html" );
+    exit; 
 }
 
 
 
-// Registration to MySQL.
-date_default_timezone_set('Asia/Tokyo');
-$creaed_at = date('Y-m-d H:i:s');
-$sql = "INSERT INTO user VALUE (0, '$name', '$pass', '$creaed_at', '$creaed_at')";
+// Delete Username.
+$arrayLine = $nameAndPass[$userID];
+$realUserID = $arrayLine['id'];
+
+$sql = "DELETE FROM user WHERE id = $realUserID";
 $stmt = $db->prepare($sql);
 $stmt->execute();
 
-$sql_ = "INSERT INTO link VALUE (0, '$name',
- '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#',
- '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#',
- '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#', '-', '#')";
+$sql_ = "DELETE FROM link WHERE id = $realUserID";
 $stmt_ = $db->prepare($sql_);
 $stmt_->execute();
+
+
+
 
 ?>
 
@@ -121,9 +127,9 @@ $stmt_->execute();
     		<section class="hero">
     			<h1 class="title">TOHOKU LINKS</h1>
     			<p>
-                    <?php echo htmlspecialchars($name); ?> さん,　登録が完了しました。 <br><br>
+                    <?php echo htmlspecialchars($name); ?> さん、アカウントを削除しました。 <br><br>
                 </p>
-                <a class="complete" href="index.html"> LOGIN画面へ</a>
+                <a class="complete" href="login.html"> LOGIN画面へ</a>
 
     		</section>
         </div>

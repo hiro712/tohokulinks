@@ -9,7 +9,7 @@ $pass_ = $_POST["password2"];
 
 //　Determine if a username was POST-ed.
 if(empty($name)){
-	header( "Location: login.html" );
+	header( "Location: index.html" );
     exit;
 }
 
@@ -123,7 +123,7 @@ $stmt_->execute();
     			<p>
                     <?php echo htmlspecialchars($name); ?> さん,　登録が完了しました。 <br><br>
                 </p>
-                <a class="complete" href="login.html"> LOGIN画面へ</a>
+                <a class="complete" href="index.html"> LOGIN画面へ</a>
 
     		</section>
         </div>
