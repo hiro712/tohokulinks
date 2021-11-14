@@ -123,8 +123,12 @@ h1{
   .box input[type="submit"]:hover, .registration:hover, .complete:hover{
 	background:white;
 	color:#555;
-	border: 2px solid #555;
+	border: 2px solid #333;
 	 
+  }
+
+  a:hover {
+	  color: #555;
   }
 
 /*
