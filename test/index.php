@@ -163,10 +163,10 @@ $stmt_->execute($params_);
 <!--モーダルウィンドウ-->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
 <!--自作のCSS-->
-<link rel="stylesheet" type="text/css" href="reset.css">
-<link rel="stylesheet" type="text/css" href="parts.css">
-<link rel="stylesheet" type="text/css" href="layout.css">
-<link rel="stylesheet" type="text/css" href="icon.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/parts.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<link rel="stylesheet" type="text/css" href="css/icon.css">
 </head>
 
 <body>
@@ -505,7 +505,7 @@ $stmt_->execute($params_);
             <li><a href="#faq">Faq</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#info1" class="info">Registration</a></li>
-			<li><a href="manual.pdf">How to Use</a></li>
+			<li><a href="docs/manual.pdf">How to Use</a></li>
 			<li><a href="index.html">Logout</a></li>
             <li><a href="changepw.html">パスワード変更</a></li>
             <li><a href="delete.html">アカウント削除</a></li>
@@ -626,6 +626,6 @@ $stmt_->execute($params_);
 <!--モーダルのJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
 <!--自作のJS-->   
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
