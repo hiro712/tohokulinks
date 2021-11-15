@@ -219,7 +219,8 @@ div .clear {
     text-align: center;
     margin:60px 0 40px 0;
 }
-#classroom h3{
+.sns{
+    font-family: 'Lato', sans-serif;
     color: var(--maincolor);
 }
 

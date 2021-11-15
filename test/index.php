@@ -411,7 +411,7 @@ $stmt_->execute($params_);
             </div>
         </div>
 
-        <h3>SNSでシェア</h3>
+        <h2 class="sns">SNSでシェア</h2>
         <ul class="shareList6">
             <li class="shareList6__item"><a class="shareList6__link icon-twitter" href="#" target="_blank" title="Twitter"></a></li>
             <li class="shareList6__item"><a class="shareList6__link icon-facebook" href="#" target="_blank" title="Facebook"></a></li>
