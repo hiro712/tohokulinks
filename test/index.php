@@ -332,6 +332,15 @@ $stmt_->execute($params_);
             </tr>
         </table>
 
+
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <span>
+            <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+            <script type="text/javascript">
+                new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a"});
+            </script>
+        </span>
+
         <p class="fadeUpTrigger"><a href="#info1" class="info">時間割登録はここから</a></p>
         <div id="info1" class="hide-area">
             <h2 class="maincolor">Registration</h2>
