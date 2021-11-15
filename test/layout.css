@@ -1,0 +1,619 @@
+@charset "utf-8";
+/* レイアウトのためのCSS */
+
+:root {
+    --maincolor: rgb(46, 0, 114); /* #2e0072 */
+    --textcolor: #333;
+}
+
+body{
+    font-family:"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+	color: #333;
+	font-size:1rem;
+	line-height:1.85;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%; 
+	word-wrap: break-word;
+}
+
+@media screen and (max-width:768px) {
+body{
+	font-size:0.8rem;
+	}
+}
+
+*{box-sizing: border-box;}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	color: var(--textcolor);
+	text-decoration: none;
+    outline: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* font-family */
+
+#splash-logo,
+.top-lead,
+h1,
+h2,
+h3 span,
+#g-nav,
+#pc-nav,
+.openbtn,
+#footer{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+/* splash */
+
+#splash-logo{
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--maincolor);
+}
+
+/* g-nav */
+
+#g-nav.panelactive li:nth-last-child(-n+2) a{
+    margin: 30px 0 0 0;
+    padding: 10px 20px;
+    border: 2px solid #f3f3f3;
+    white-space: nowrap;
+}
+
+
+
+/*pc-nav*/
+
+@media screen and (max-width:990px) {
+    #pc-nav{
+        display: none;
+    }
+}
+
+/* heading */
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    line-height: 1;
+    letter-spacing: 0.2em;
+}
+
+@media screen and (max-width:550px) {
+    h1{
+        font-size:1.2rem;
+        top: 32%;
+    }
+}
+
+
+h1 a{
+    color: var(--maincolor);
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+@media screen and (max-width:768px) {
+
+  h2{
+      font-size:2rem;
+    }
+}
+
+
+
+/* main-area */
+
+#container {
+    background-color: #f3f3f3;
+    background-image: linear-gradient(180deg, #ccc 1px, transparent 1px); /* 罫線の色と太さ  */
+    background-size: 100% 2.5em; /* 行の高さ */
+    line-height: 2.5em; /* 文字の高さ */
+    padding-bottom: 1px; /* 最終行の下にも罫線を引く */
+}
+
+#main-area{
+    width:90%;
+    margin:0 auto;
+    padding: 50px 0; 
+}
+
+/* top */
+
+#top {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+@media screen and (max-width:768px) {
+    #top{
+        width: 100%;
+        float: none;
+    }
+}
+
+#top h2{
+    text-align: center;
+    color: var(--maincolor);
+    margin:100px 0 40px 0;
+}
+
+/* topics */
+
+#topics{
+    border-left:3px solid #000;
+    padding: 0 0 0 20px;
+    margin: 150px 0 0 0;
+    width: 50%;
+    float: right;
+}
+
+@media screen and (max-width:768px) {
+    #topics{
+        margin: 40px 0 100px 0;
+        width: 100%;
+        float: none;
+    }
+}
+
+#topics h2{
+    font-size: 1.5rem;
+}
+
+#topics h2 span.bgLRextend::before{
+    background:#333;
+}
+
+.bx-wrapper{
+    box-shadow:none;
+    border:none;
+    margin: 0;
+}
+
+.newicon {
+	background: #F00;	/*背景色*/
+	color: #FFF;		/*文字色*/
+	font-size: 70%;		/*文字サイズ*/
+	line-height: 1.5;
+	padding: 2px 5px;
+	border-radius: 2px;
+	margin: 0px 5px;
+	vertical-align: text-top;
+}
+.imp {
+	color: red;
+}
+.update {
+	color: blue;
+}
+
+div .clear {
+    clear: both;
+}
+
+
+/* classroom */
+
+#classroom h2{
+    text-align: center;
+    margin:60px 0 40px 0;
+}
+
+@media screen and (max-width:550px) {
+#classroom h2{
+    margin:50px 0 30px 0;
+    }
+}
+
+#classroom p{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+
+}
+
+td{
+    white-space: nowrap;
+  }
+
+table.class-list {
+    margin-left: auto;
+    margin-right: auto;
+    background: #555;
+    width: 90%;
+    border-collapse: separate;
+}
+
+table.class-list th, td {
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+table.class-list td:hover {
+    background: #777;
+}
+
+
+.btn {
+    color: #fff;
+    font-size: larger;
+}
+
+
+
+
+.maincolor {
+    color: var(--maincolor);
+}
+
+table.input-list {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    background: #555;
+    width: 90%;
+    border-collapse: separate;
+}
+
+table.input-list th, td {
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+button[type="submit"] {
+    border: 0;
+    width: 120px;
+    background: #555;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #555;
+    padding: 7px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background:white;
+    color:#555;
+    border: 2px solid #555;
+}
+
+button[type="submit"] {
+    border: 2px solid var(--maincolor);
+    border-radius: 0;
+    background: #fff;
+    color: var(--maincolor);
+  
+    -webkit-transform-style: preserve-3d;
+  
+    transform-style: preserve-3d;
+  }
+  
+  button[type="submit"]:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 5px;
+    height: 100%;
+  
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  
+    background: var(--maincolor);
+  }
+  
+  button[type="submit"]:hover {
+    color: #fff;
+    background: var(--maincolor);
+  }
+
+
+
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 20px auto;
+}
+.cp_iptxt input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: none;
+	border-bottom: 2px solid var(--textcolor);
+	background: transparent;
+}
+.ef input[type='text']:focus {
+	border-bottom: 2px solid var(--maincolor);
+	outline: none;
+}
+
+
+
+
+/* links */
+
+#links h2{
+    text-align: center;
+    color: var(--maincolor);
+    margin:100px 0 40px 0;
+}
+
+@media screen and (max-width:550px) {
+#links h2{
+    margin:50px 0 30px 0;
+    }
+}
+
+table.link-list {
+    margin-left: auto;
+    margin-right: auto;
+    background: #555;
+    width: 50%;
+    border-collapse: separate;
+}
+
+table.link-list th, td {
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+table.link-list td:hover {
+    background: #777;
+}
+
+
+/*table全体のレスポンシブ*/
+
+@media screen and (max-width:990px) {
+    table.link-list {
+        width: 70%;
+    }
+    .btn {
+        font-size: medium;
+    }
+}
+@media screen and (max-width:800px) {
+    table.link-list {
+        width: 90%;
+    }
+    .btn {
+        font-size: smaller;
+    }
+}
+@media screen and (max-width:650px) {
+    table th, td {
+        padding: 10px 5px;
+    }
+    .btn {
+        font-size: x-small;
+    }
+}
+@media screen and (max-width:550px) {
+
+    .btn {
+        font-size: xx-small;
+    }
+}
+
+/*テーブルのaタグ*/
+td a {
+    margin: -50%;
+    padding: 50% 50%;
+    font-weight: bold;
+}
+@media screen and (max-width:550px) {
+
+    td a {
+        font-weight: normal;
+    }
+}
+
+
+
+/* faq */
+
+#faq{
+    margin:100 0 200px 0;
+}
+
+#faq h2{
+    text-align: center;
+    margin:100px 0 40px 0;
+}
+
+
+#faq h2 span.bgLRextend::before{
+    background: var(--textcolor);
+}
+
+.accordion-area {
+    background-color: #f3f3f3;
+}
+
+
+
+@media screen and (max-width:550px) {
+#faq{
+    margin:0 0 100px 0;
+}
+    
+#faq h2{
+ margin: 50px 0 30px 0;
+    }
+}
+
+
+/* contact */
+
+#contact{
+    margin:0 0 100px 0;
+}
+
+.framewrap {
+    text-align: center;
+}
+.framewrap2 {
+    text-align: center;
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .framewrap {
+        display: none;
+    }
+    .framewrap2 {
+        display: inline;
+    }
+   }
+
+#contact h2{
+    text-align: center;
+    margin:100px 0 40px 0;
+    color: var(--maincolor);
+}
+
+@media screen and (max-width:550px) {
+ #contact h2{
+     margin:0 0 30px 0;
+    }
+}
+
+#contact .form-list{
+    width:100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contact input , button , textarea , select {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	background:none;
+    font-size: 16px;
+}
+
+#contact .form-list input[type='text'] , 
+#contact .form-list input[type='email'] , 
+#contact .form-list textarea{
+	width:100%;
+	border:1px solid #666;
+	background:#fff;
+	padding: 10px;
+	-webkit-appearance:none;
+	   -moz-appearance:none;
+	        appearance:none;
+}
+
+#contact .form-list input[type='text'] , input[type='email'] {
+	height:50px;
+}
+
+#contact .submit-btn{
+    width:152px;
+    margin: 0 auto;
+}
+
+#contact input[type='submit']{
+   border:2px solid #333;
+    color: #333;
+    text-align: center;
+    padding: 5px 20px;
+    width:152px;
+    margin: 0 auto;
+    transition: all .3s;
+}
+
+#contact input[type='submit']:hover{
+    background: #333;
+    color: #fff;
+} 
+
+#contact .form-list dl{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	padding:0 0 20px 0;
+}
+
+#contact .form-list dt{
+    width:30%;
+}
+
+#contact .form-list dd{
+    width:66%;
+}
+
+#contact .form-list textarea {
+	height:200px;
+}
+
+@media screen and (max-width:768px) {
+#contact .form-list dt{
+	margin:0 0 10px 0;
+}
+#contact .form-list dt,
+#contact .form-list dd{
+    width:100%;
+}
+	
+}
+
+/* footer */
+
+#footer{
+    padding: 100px 0;
+    border-top:1px solid #333;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#footer .footer-logo{
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    margin: 0 0 50px 0;
+    color: #666;
+}
+
+#footer small{
+     color:#888;
+}
