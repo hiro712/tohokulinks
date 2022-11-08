@@ -220,8 +220,12 @@ $stmt_->execute($params_);
 
         <!--<u><p>2021/11/07<br></p></u>
           <p><span class= "newicon">NEW</span></p><br>-->
+	    
+	<u><p>2021/11/15<br></p></u>
+          <p class="imp">このサイトはheroku料金プラン変更に伴い11/24に閉鎖されます。今まで「TOHOKULINKS」をご利用いただきありがとうございました。<span class= "newicon">NEW</span></p><br>
+	    
         <u><p>2021/11/15<br></p></u>
-          <p class="update">Ver.2.0アップデート情報！　UIが変更になりました。<span class= "newicon">NEW</span></p><br>
+          <p class="update">Ver.2.0アップデート情報！　UIが変更になりました。</p><br>
 
         <u><p>2021/11/07<br></p></u>
           <p class="imp">11/15(月)0:00より新UIに変更になります。それに伴いURLが変更になるため、ブックマークなどしている場合はご注意ください。新しいURLは<a href="https://tohokulinks.herokuapp.com/index.html" target="_blank">https://tohokulinks.herokuapp.com/index.html</a>になります。現在はまだ使用できません。</p><br>
