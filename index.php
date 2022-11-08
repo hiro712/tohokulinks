@@ -202,6 +202,7 @@ $stmt_->execute($params_);
         echo("\n");}?>
     </strong><br>
     <strong>こんにちは、<?php echo htmlspecialchars($name); ?> さん。</strong>
+	<strong style="color: red;">このサイトはheroku料金プラン変更に伴い11/24に閉鎖されます。</strong>
 </section>
 
 <section id="topics">
